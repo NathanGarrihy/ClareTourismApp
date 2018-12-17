@@ -55,9 +55,29 @@ namespace ClareTourismApp
             //  get the assembly
             var assembly = typeof(MainPage);
 
-            string strFilename = "ClareTourismApp.Assets.Images.CliffsSmall.jpg";
+            string smallCliffs = "ClareTourismApp.Assets.Images.CliffsSmall.jpg";
+            cliffsSmall.Source = ImageSource.FromResource(smallCliffs, assembly);
 
-            cliffsSmall.Source = ImageSource.FromResource(strFilename, assembly);
+            string smallBurren = "ClareTourismApp.Assets.Images.burren1.jpg";
+            burrenSmall.Source = ImageSource.FromResource(smallBurren, assembly);
+
+            string smallBunratty = "ClareTourismApp.Assets.Images.bunratty1.jpg";
+            bunrattySmall.Source = ImageSource.FromResource(smallBunratty, assembly);
+
+            string smallAilwee = "ClareTourismApp.Assets.Images.ailwee1.jpg";
+            ailweeSmall.Source = ImageSource.FromResource(smallAilwee, assembly);
+
+            string smallDoolin = "ClareTourismApp.Assets.Images.doolin1.jpg";
+            doolinSmall.Source = ImageSource.FromResource(smallDoolin, assembly);
+
+            string smallCraggaunowen = "ClareTourismApp.Assets.Images.craggaunowen1.jpg";
+            craggaunowenSmall.Source = ImageSource.FromResource(smallCraggaunowen, assembly);
+
+            string smallLahinch = "ClareTourismApp.Assets.Images.lahinch1.jpg";
+            lahinchSmall.Source = ImageSource.FromResource(smallLahinch, assembly);
+
+
+
 
         }
     }
