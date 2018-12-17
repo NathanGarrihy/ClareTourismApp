@@ -2,14 +2,65 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:ClareTourismApp"
-             x:Class="ClareTourismApp.MainPage">
-
-    <StackLayout>
+             x:Class="ClareTourismApp.MainPage"
+             BackgroundImage="Assets/Images/CliffsBackground.jpg">
+    <ScrollView>
+        <StackLayout>
         <!-- Place new controls here -->
-        <Label Text="Clare Tourism App" Font="Large"
-               BackgroundColor="Black" FontAttributes="Bold"
+            
+        <Label Text="-Clare Tourism App-" Font="50"
+               BackgroundColor="Yellow" FontAttributes="Bold"
                TextColor="Blue" VerticalOptions="Start"
                HorizontalOptions="Center" />
+            <StackLayout Orientation="Horizontal"
+                         VerticalOptions="Center"
+                         HorizontalOptions="Center">
+                <Button x:Name="Cliffsbtn" Text="The Cliffs Of Moher"
+                BackgroundColor="Gray" BorderColor="Blue" TextColor="Blue"
+                WidthRequest="350" HeightRequest="70"
+                BorderWidth="4" FontSize="Large"
+                Clicked="Cliffsbtn_Clicked"/>
+            <Image x:Name="cliffsSmall" WidthRequest="70"
+                   HeightRequest="70" />
+            </StackLayout>
+            <Button x:Name="Burrenbtn" Text="The Burren"
+                BackgroundColor="Gray" BorderColor="Yellow" TextColor="Yellow"
+                VerticalOptions="Center" HorizontalOptions="Center"
+                WidthRequest="350" HeightRequest="70"
+                BorderWidth="4" FontSize="Large"
+                Clicked="Burrenbtn_Clicked"/>
+        <Button x:Name="Bunrattybtn" Text="Bunratty Castle"
+                BackgroundColor="Gray" BorderColor="Blue" TextColor="Blue"
+                VerticalOptions="Center" HorizontalOptions="Center"
+                WidthRequest="350" HeightRequest="70"
+                BorderWidth="4" FontSize="Large"
+                Clicked="Bunrattybtn_Clicked"/>
+        <Button x:Name="AilweeCavebtn" Text="Ailwee Cave"
+                BackgroundColor="Gray" BorderColor="Yellow" TextColor="Yellow"
+                VerticalOptions="Center" HorizontalOptions="Center"
+                WidthRequest="350" HeightRequest="70"
+                BorderWidth="4" FontSize="Large"
+                Clicked="AilweeCavebtn_Clicked"/>
+        <Button x:Name="Doolinbtn" Text="Doolin"
+                BackgroundColor="Gray" BorderColor="Blue" TextColor="Blue"
+                VerticalOptions="Center" HorizontalOptions="Center"
+                WidthRequest="350" HeightRequest="70"
+                BorderWidth="4" FontSize="Large"
+                Clicked="Doolinbtn_Clicked"/>
+        <Button x:Name="Craggaunowenbtn" Text="Craggaunowen"
+                BackgroundColor="Gray" BorderColor="Yellow" TextColor="Yellow"
+                VerticalOptions="Center" HorizontalOptions="Center"
+                WidthRequest="350" HeightRequest="70"
+                BorderWidth="4" FontSize="Large"
+                Clicked="Craggaunowenbtn_Clicked"/>
+        <Button x:Name="Lahinchbtn" Text="Doolin"
+                BackgroundColor="Gray" BorderColor="Blue" TextColor="Blue"
+                VerticalOptions="Center" HorizontalOptions="Center"
+                WidthRequest="350" HeightRequest="70"
+                BorderWidth="4" FontSize="Large"
+                Clicked="Lahinchbtn_Clicked"/>
+
     </StackLayout>
+    </ScrollView>
 
 </ContentPage>
