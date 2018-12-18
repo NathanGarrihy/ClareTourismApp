@@ -55,6 +55,9 @@ namespace ClareTourismApp
             //  get the assembly
             var assembly = typeof(MainPage);
 
+            string backgroundCliffs = "ClareTourismApp.Assets.Images.clareFlag.jpg";
+            clareFlag.Source = ImageSource.FromResource(backgroundCliffs, assembly);
+
             string smallCliffs = "ClareTourismApp.Assets.Images.CliffsSmall.jpg";
             cliffsSmall.Source = ImageSource.FromResource(smallCliffs, assembly);
 
@@ -75,9 +78,6 @@ namespace ClareTourismApp
 
             string smallLahinch = "ClareTourismApp.Assets.Images.lahinch1.jpg";
             lahinchSmall.Source = ImageSource.FromResource(smallLahinch, assembly);
-
-
-
 
         }
     }

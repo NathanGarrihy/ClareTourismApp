@@ -13,7 +13,9 @@
     <None Remove="Assets\Images\ailwee1.jpg" />
     <None Remove="Assets\Images\bunratty1.jpg" />
     <None Remove="Assets\Images\burren1.jpg" />
+    <None Remove="Assets\Images\clareFlag.jpg" />
     <None Remove="Assets\Images\CliffsBackground.jpg" />
+    <None Remove="Assets\Images\cliffsImage.jpg" />
     <None Remove="Assets\Images\CliffsSmall.jpg" />
     <None Remove="Assets\Images\craggaunowen1.jpg" />
     <None Remove="Assets\Images\doolin1.jpg" />
@@ -24,7 +26,9 @@
     <EmbeddedResource Include="Assets\Images\ailwee1.jpg" />
     <EmbeddedResource Include="Assets\Images\bunratty1.jpg" />
     <EmbeddedResource Include="Assets\Images\burren1.jpg" />
+    <EmbeddedResource Include="Assets\Images\clareFlag.jpg" />
     <EmbeddedResource Include="Assets\Images\CliffsBackground.jpg" />
+    <EmbeddedResource Include="Assets\Images\cliffsImage.jpg" />
     <EmbeddedResource Include="Assets\Images\CliffsSmall.jpg" />
     <EmbeddedResource Include="Assets\Images\craggaunowen1.jpg" />
     <EmbeddedResource Include="Assets\Images\doolin1.jpg" />
