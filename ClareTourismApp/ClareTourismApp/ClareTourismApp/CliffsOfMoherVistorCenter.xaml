@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ClareTourismApp.CliffsOhMoherVistorCenter">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout BackgroundColor="DarkBlue">
+            <StackLayout Orientation="Horizontal"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center">
+                    <Image x:Name="cliffsV1" HorizontalOptions="Center" VerticalOptions="Start"/>
+                    <Image x:Name="cliffsV2" HorizontalOptions="Center" VerticalOptions="Center"/>
+                    <Image x:Name="cliffsV3" HorizontalOptions="Center" VerticalOptions="End"/>
+            </StackLayout>    
+                <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                    <Label Text="The Cliffs Of Moher Visitor Center" Font="Bold, 40" HorizontalOptions="Center" Margin="2,1,2,1"/>
+                </StackLayout>
+                <StackLayout HorizontalOptions="Start" VerticalOptions="Center">
+                    <Label BackgroundColor="Yellow" Text="The award winning eco-friendly centre has been built nestled into the hillside and features a restaurant, cafe, visitor information and gift shops. The unmissable cliffs exhibition animates the story of the Cliffs, presenting the geology, wildlife and human aspects in an entertaining and informative way."
+                       FontSize="Medium"  
+                       HorizontalOptions="CenterAndExpand"
+                       VerticalOptions="Center"/>
+                    <Label BackgroundColor="Yellow" Text="The Cliffs of Moher Visitor Experience is open all year round with the exception of Christmas Eve, Christmas Day and St. Stephen's Day. Opening times vary between 9.00 am 9.00 pm.  During the summer, closing time varies with sunset times. For example the Cliffs are open until 9pm for the months of July and August. Why not choose to visit later in the day during the summer when the Cliffs are less crowded and enjoy a magical sunset, great photo opportunities or a romantic picnic?" 
+                       FontSize="Medium"    
+                       HorizontalOptions="CenterAndExpand"
+                       VerticalOptions="Center"/>
+                    <Label  BackgroundColor="Yellow"  Text="The Cliffs of Moher are sea cliffs located at the southwestern edge of the Burren region in County Clare, Ireland. They run for about 14 kilometres. At their southern end, they rise 120 metres (390 ft) above the Atlantic Ocean at Hag's Head, and stretch eight kilometres to the north, reach their maximum height of 214 metres (702 ft) just north of O'Brien's Tower, a round stone tower near the midpoint of the cliffs, built in 1835 by Sir Cornelius O'Brien, then continue at lower heights."
+                       FontSize="Medium"    
+                       HorizontalOptions="CenterAndExpand"
+                       VerticalOptions="Center"/>
+                    <Label BackgroundColor="Yellow" Text="For more information, visit www.cliffsofmoher.ie or telephone 065 708 6141. Admission price includes entry to the Cliffs, Visitor Centre and Parking. Adults 6 euro, Seniors 4 euro, Students 4 euro and children under 16 are free."
+                       FontSize="Medium"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Center"/>
+
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
