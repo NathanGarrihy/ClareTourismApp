@@ -1,5 +1,5 @@
 ﻿using System;
-
+using Xamarin;
 using Android.App;
 using Android.Content.PM;
 using Android.Runtime;
@@ -19,6 +19,7 @@ namespace ClareTourismApp.Droid
 
             base.OnCreate(savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
+            FormsMaps.Init(this, savedInstanceState);
             LoadApplication(new App());
         }
     }

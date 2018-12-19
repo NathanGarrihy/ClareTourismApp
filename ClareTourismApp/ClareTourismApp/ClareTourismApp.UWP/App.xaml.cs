@@ -14,6 +14,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using Xamarin;
 
 namespace ClareTourismApp.UWP
 {
@@ -53,6 +54,8 @@ namespace ClareTourismApp.UWP
                 rootFrame.NavigationFailed += OnNavigationFailed;
 
                 Xamarin.Forms.Forms.Init(e);
+
+                FormsMaps.Init("62VIRosbAMsJvCKW6WgA~b-hl0ShaKRA_kcQj1EU14Q~Atb4Kx1SeCyzVRqJ-nzrNhI2qM31ky-mpRPXnxXHNw0aHcLz-RC4GjDFnT_nquqM");
 
                 if (e.PreviousExecutionState == ApplicationExecutionState.Terminated)
                 {
