@@ -20,7 +20,7 @@ namespace ClareTourismApp
 
         private void SetUpImagesOnPage()
         {
-            var assembly = typeof(CliffsOfMoherInfo);
+            var assembly = typeof(CliffsOhMoherVistorCenter);
 
             string Vcliffs1 = "ClareTourismApp.Assets.Images.cliffsVisitor1.jpg";
             cliffsV1.Source = ImageSource.FromResource(Vcliffs1, assembly);

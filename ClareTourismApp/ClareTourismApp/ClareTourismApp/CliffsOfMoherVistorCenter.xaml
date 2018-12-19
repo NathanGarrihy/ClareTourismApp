@@ -13,7 +13,7 @@
                     <Image x:Name="cliffsV3" HorizontalOptions="Center" VerticalOptions="End"/>
             </StackLayout>    
                 <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
-                    <Label Text="The Cliffs Of Moher Visitor Center" Font="Bold, 40" HorizontalOptions="Center" Margin="2,1,2,1"/>
+                    <Label Text="The Cliffs Of Moher Visitor Center" Font="Bold, Large" HorizontalOptions="Center" Margin="2,1,2,1"/>
                 </StackLayout>
                 <StackLayout HorizontalOptions="Start" VerticalOptions="Center">
                     <Label BackgroundColor="Yellow" Text="The award winning eco-friendly centre has been built nestled into the hillside and features a restaurant, cafe, visitor information and gift shops. The unmissable cliffs exhibition animates the story of the Cliffs, presenting the geology, wildlife and human aspects in an entertaining and informative way."

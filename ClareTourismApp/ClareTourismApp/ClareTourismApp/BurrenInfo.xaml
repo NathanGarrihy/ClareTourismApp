@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ClareTourismApp.BurrenInfo">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout BackgroundColor="DodgerBlue">
+            <StackLayout Orientation="Horizontal"
+                     HorizontalOptions="Center"
+                     VerticalOptions="Center">
+                    <Image x:Name="burren1" HorizontalOptions="Center" VerticalOptions="Start"/>
+                    <Image x:Name="burren2" HorizontalOptions="Center" VerticalOptions="Center"/>
+                    <Image x:Name="burren3" HorizontalOptions="Center" VerticalOptions="End"/> 
+                </StackLayout>  
+                <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                    <Label Text="Information About The Burren" Font="Bold, Large" HorizontalOptions="Center" Margin="2,1,2,1"/>
+                </StackLayout>
+                <StackLayout HorizontalOptions="Start" VerticalOptions="Center">
+                    <Label BackgroundColor="Gold" Text="The Burren region is internationally famous for its landscape and flora. A visit to the Burren during the summer months will leave a person amazed by the colourful diversity of flowering plants living together within the one ecosystem. Arctic-alpine plants living side by side with Mediterranean plants, calcicole (lime-loving) and calcifuge (acid-loving) plants growing adjacent to one another and woodland plants growing out in the open with not a tree nearby to provide shade from the sun. Also found here are certain species which although rare elsewhere are abundant in the Burren. Even more amazingly they all survive in a land that appears to be composed entirely of rock."
+                       FontSize="Medium"    
+                       HorizontalOptions="CenterAndExpand"
+                       VerticalOptions="Center"/>
+                    <Label BackgroundColor="Gold" Text="The Burren covers 1% of the land surface of Ireland and is approximately 360 square kilometres in size. Most of the Burren is designated a Special Area of Conservation to protect this extremely unusual habitat. The Burren National Park is located in the southeastern corner of the Burren and is approximately 1500 hectares (15 square kilometres) in size. The Park land was bought by the Government for nature conservation and public access. It contains examples of all the major habitats within the Burren: Limestone Pavement, Calcareous grassland, Hazel scrub, Ash/hazel woodland, Turloughs, Lakes, Petrifying springs, Cliffs and Fen."
+                       FontSize="Medium"    
+                       HorizontalOptions="CenterAndExpand"
+                       VerticalOptions="Center"/>
+                    <Label  BackgroundColor="Gold"  Text="The highest point in the Park is Knockanes (207 metres) which continues as a curving terraced ridge to Mullaghmór to the south. East of this ridge is an area of extensive, low-lying limestone pavement containing a number of semi-permanent lakes. West of this ridge, the pavement sweeps down to partially drift-covered ground which gradually rises again to reach the foot of a rocky escarpment. To the south of the Park, the limestone bedrock disappears under a layer of glacial till. This till area is far more intensively managed for pasture and silage."
+                       FontSize="Medium"    
+                       HorizontalOptions="CenterAndExpand"
+                       VerticalOptions="Center"/>
+                    <Label BackgroundColor="Gold" Text="There are seven way-marked walking trails in the Burren National Park and Slieve Carran Nature Reserve. The walks vary from a short thirty minute loop walk to a three hour walk over limestone hills. Details of each of the walks are outlined below. Each trail is signposted with colour-coded markers. The trails traverse a limestone landscape which can be uneven and steep in places, so care must be taken. Please be aware that none of these trails are wheelchair accessible. For trail advice, you can contact us at the Burren National Park Information Point from April to September."
+                       FontSize="Medium"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Center"/>
+                    <Image x:Name="burrenWalk" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" />
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

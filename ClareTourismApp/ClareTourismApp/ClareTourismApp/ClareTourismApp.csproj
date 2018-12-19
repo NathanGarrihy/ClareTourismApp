@@ -13,6 +13,10 @@
     <None Remove="Assets\Images\ailwee1.jpg" />
     <None Remove="Assets\Images\bunratty1.jpg" />
     <None Remove="Assets\Images\burren1.jpg" />
+    <None Remove="Assets\Images\burrenInfo1.jpg" />
+    <None Remove="Assets\Images\burrenInfo2.jpg" />
+    <None Remove="Assets\Images\burrenInfo3.jpg" />
+    <None Remove="Assets\Images\burrenWalks.jpg" />
     <None Remove="Assets\Images\clareFlag.jpg" />
     <None Remove="Assets\Images\CliffsBackground.jpg" />
     <None Remove="Assets\Images\cliffsImage.jpg" />
@@ -33,6 +37,10 @@
     <EmbeddedResource Include="Assets\Images\ailwee1.jpg" />
     <EmbeddedResource Include="Assets\Images\bunratty1.jpg" />
     <EmbeddedResource Include="Assets\Images\burren1.jpg" />
+    <EmbeddedResource Include="Assets\Images\burrenInfo1.jpg" />
+    <EmbeddedResource Include="Assets\Images\burrenInfo2.jpg" />
+    <EmbeddedResource Include="Assets\Images\burrenInfo3.jpg" />
+    <EmbeddedResource Include="Assets\Images\burrenWalks.jpg" />
     <EmbeddedResource Include="Assets\Images\clareFlag.jpg" />
     <EmbeddedResource Include="Assets\Images\CliffsBackground.jpg" />
     <EmbeddedResource Include="Assets\Images\cliffsImage.jpg" />
@@ -70,6 +78,9 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Burren.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="BurrenInfo.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="CliffsOfMoher.xaml">

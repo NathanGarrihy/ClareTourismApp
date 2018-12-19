@@ -13,7 +13,7 @@
             <Image x:Name="cliffs3" HorizontalOptions="Center" VerticalOptions="End"/>
             </StackLayout>
                 <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
-                    <Label Text="Information About the Cliffs Of Moher" Font="Bold, 40" HorizontalOptions="Center" Margin="2,1,2,1"/>
+                    <Label Text="Information About The Cliffs Of Moher" Font="Bold, Large" HorizontalOptions="Center" Margin="2,1,2,1"/>
                 </StackLayout>
                 <StackLayout HorizontalOptions="Start" VerticalOptions="Center">
                     <Label BackgroundColor="Gold" Text="Step on to the edge of the world and into an awe-inspiring view that dreams are made of – at the Cliffs of Moher you will encounter nature in its wildest, purest form – see the rugged cliffs facing the mighty ocean, taste the salt air, hear the birds cry, feel the ancient rocks beneath your feet, smell the wind. Decide today to grant your highest wish to visit Ireland's most spectacular natural wonder at the heart of the Wild Atlantic Way – the Cliffs of Moher Visitor Experience."

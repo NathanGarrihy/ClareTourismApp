@@ -8,6 +8,7 @@
 	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 	<uses-permission android:name="android.permission.INTERNET" />
-	<application android:label="ClareTourismApp.Android"></application>
-	<meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyDvwZSceJJnybDnFTKudWB5I7MROq3nGAY" />
+  <application android:label="XamarinMaps.Android" android:icon="@drawable/icon">
+    <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyDvwZSceJJnybDnFTKudWB5I7MROq3nGAY" />
+  </application>
 </manifest>

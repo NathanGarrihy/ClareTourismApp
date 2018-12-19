@@ -10,7 +10,7 @@ using Xamarin.Forms.Xaml;
 namespace ClareTourismApp
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class Burren : ContentPage
+	public partial class Burren : TabbedPage
 	{
 		public Burren ()
 		{
