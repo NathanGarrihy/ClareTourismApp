@@ -81,6 +81,14 @@ namespace ClareTourismApp
 
             string imageCliffs = "ClareTourismApp.Assets.Images.cliffsImage.jpg";
             cliffsImage.Source = ImageSource.FromResource(imageCliffs, assembly);
+
+            string picMap = "ClareTourismApp.Assets.Images.mapIcon.png";
+            mapPic.Source = ImageSource.FromResource(picMap, assembly);
+        }
+
+        private void Map_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new MapPage());
         }
     }
 }

@@ -23,6 +23,7 @@
     <None Remove="Assets\Images\craggaunowen1.jpg" />
     <None Remove="Assets\Images\doolin1.jpg" />
     <None Remove="Assets\Images\lahinch1.jpg" />
+    <None Remove="Assets\Images\mapIcon.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -39,6 +40,7 @@
     <EmbeddedResource Include="Assets\Images\craggaunowen1.jpg" />
     <EmbeddedResource Include="Assets\Images\doolin1.jpg" />
     <EmbeddedResource Include="Assets\Images\lahinch1.jpg" />
+    <EmbeddedResource Include="Assets\Images\mapIcon.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -72,6 +74,9 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Lahinch.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="MapPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>

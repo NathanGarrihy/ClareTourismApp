@@ -94,7 +94,19 @@
                 <Image x:Name="lahinchSmall" WidthRequest="100"
                        HeightRequest="70" />
             </StackLayout>
-        </StackLayout>
+                <StackLayout Orientation="Horizontal"
+                         VerticalOptions="Center"
+                         HorizontalOptions="Center">
+                    <Button x:Name="Map" Text="Location Map"
+                BackgroundColor="Blue" BorderColor="Yellow" TextColor="Yellow"
+                VerticalOptions="Center" HorizontalOptions="Center" FontAttributes="Bold"
+                WidthRequest="350" HeightRequest="70"
+                BorderWidth="4" FontSize="Large"
+                Clicked="Map_Clicked"/>
+                    <Image x:Name="mapPic" WidthRequest="100"
+                       HeightRequest="70" />
+                </StackLayout>
+            </StackLayout>
             <StackLayout>
                 <Image x:Name="cliffsImage" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"/>
                 <Label Text="The Cliffs Of Moher" Font="Small" HorizontalOptions="Center"/>
