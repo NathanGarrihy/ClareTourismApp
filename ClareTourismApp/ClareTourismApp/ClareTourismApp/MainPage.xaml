@@ -2,14 +2,10 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:ClareTourismApp"
-             x:Class="ClareTourismApp.MainPage"
-             BackgroundImage="Assets/Images/CliffsBackground.jpg">
+             x:Class="ClareTourismApp.MainPage">
     <ScrollView>
-        <StackLayout HorizontalOptions="FillAndExpand"
-                     VerticalOptions="FillAndExpand"
-                     BackgroundColor="SteelBlue">
+        <StackLayout BackgroundColor="DodgerBlue">
             <Image x:Name="clareFlag" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"/>
-
             <StackLayout>
             <Label Text="-Clare Tourism App-" Font="50"
                BackgroundColor="Yellow" FontAttributes="Bold"
@@ -99,6 +95,10 @@
                        HeightRequest="70" />
             </StackLayout>
         </StackLayout>
+            <StackLayout>
+                <Image x:Name="cliffsImage" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"/>
+                <Label Text="The Cliffs Of Moher" Font="Small" HorizontalOptions="Center"/>
+            </StackLayout>
         </StackLayout>
        
     </ScrollView>

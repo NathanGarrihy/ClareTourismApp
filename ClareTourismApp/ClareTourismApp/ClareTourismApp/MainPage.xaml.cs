@@ -79,6 +79,8 @@ namespace ClareTourismApp
             string smallLahinch = "ClareTourismApp.Assets.Images.lahinch1.jpg";
             lahinchSmall.Source = ImageSource.FromResource(smallLahinch, assembly);
 
+            string imageCliffs = "ClareTourismApp.Assets.Images.cliffsImage.jpg";
+            cliffsImage.Source = ImageSource.FromResource(imageCliffs, assembly);
         }
     }
 }

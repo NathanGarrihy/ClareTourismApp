@@ -9,12 +9,12 @@ using Xamarin.Forms.Xaml;
 
 namespace ClareTourismApp
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class CliffsOfMoher : ContentPage
-	{
-		public CliffsOfMoher ()
-		{
-			InitializeComponent ();
-		}
-	}
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class CliffsOfMoher : TabbedPage
+    {
+        public CliffsOfMoher ()
+        {
+            InitializeComponent();
+        }
+    }
 }

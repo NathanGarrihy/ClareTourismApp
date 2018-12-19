@@ -16,6 +16,9 @@
     <None Remove="Assets\Images\clareFlag.jpg" />
     <None Remove="Assets\Images\CliffsBackground.jpg" />
     <None Remove="Assets\Images\cliffsImage.jpg" />
+    <None Remove="Assets\Images\cliffsInfo1.jpg" />
+    <None Remove="Assets\Images\cliffsInfo2.jpg" />
+    <None Remove="Assets\Images\cliffsInfo3.jpg" />
     <None Remove="Assets\Images\CliffsSmall.jpg" />
     <None Remove="Assets\Images\craggaunowen1.jpg" />
     <None Remove="Assets\Images\doolin1.jpg" />
@@ -29,6 +32,9 @@
     <EmbeddedResource Include="Assets\Images\clareFlag.jpg" />
     <EmbeddedResource Include="Assets\Images\CliffsBackground.jpg" />
     <EmbeddedResource Include="Assets\Images\cliffsImage.jpg" />
+    <EmbeddedResource Include="Assets\Images\cliffsInfo1.jpg" />
+    <EmbeddedResource Include="Assets\Images\cliffsInfo2.jpg" />
+    <EmbeddedResource Include="Assets\Images\cliffsInfo3.jpg" />
     <EmbeddedResource Include="Assets\Images\CliffsSmall.jpg" />
     <EmbeddedResource Include="Assets\Images\craggaunowen1.jpg" />
     <EmbeddedResource Include="Assets\Images\doolin1.jpg" />
@@ -37,6 +43,7 @@
 
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="3.4.0.1008975" />
+    <PackageReference Include="Xamarin.Forms.Maps" Version="3.4.0.1008975" />
   </ItemGroup>
 
   <ItemGroup>
@@ -50,6 +57,12 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="CliffsOfMoher.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="CliffsOfMoherInfo.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="CliffsOhMoherVistorCenter.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Craggaunowen.xaml">
