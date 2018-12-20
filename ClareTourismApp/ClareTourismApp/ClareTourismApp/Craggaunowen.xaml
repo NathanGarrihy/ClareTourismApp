@@ -3,10 +3,43 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ClareTourismApp.Craggaunowen">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <ScrollView>
+            <StackLayout BackgroundColor="DodgerBlue">
+                <StackLayout Orientation="Horizontal"
+                     HorizontalOptions="Center"
+                     VerticalOptions="Center">
+                    <Image x:Name="craggaunowen1" HorizontalOptions="Center" VerticalOptions="Start"/>
+                    <Image x:Name="craggaunowen2" HorizontalOptions="Center" VerticalOptions="Center"/>
+                    <Image x:Name="craggaunowen3" HorizontalOptions="Center" VerticalOptions="End"/>
+                </StackLayout>
+                <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                    <Label Text="Craggaunowen" Font="Bold, Large" HorizontalOptions="Center" Margin="2,1,2,1"/>
+                </StackLayout>
+                <StackLayout HorizontalOptions="Start" VerticalOptions="Center">
+                    <Label BackgroundColor="Gold" Text="Can you imagine what life was like for people in the Bronze Age? How did they adapt? At Craggaunowen you will experience the resilience and fortitude of these early Bronze Age settlers."
+                       FontSize="Medium"    
+                       HorizontalOptions="CenterAndExpand"
+                       VerticalOptions="Center"/>
+                    <Label  BackgroundColor="Gold"  Text="Explore the Crannog – an artificial island dwelling defended by a hidden pathway in the water.  Marvel at how the Celts fed large numbers of hunters while on hunting missions deep in the forest. These were skilled hunters who adopted highly sophisticated cooking techniques involving a large pit, a length of rope and of course fresh meat!"
+                       FontSize="Medium"    
+                       HorizontalOptions="CenterAndExpand"
+                       VerticalOptions="Center"/>
+                    <Label BackgroundColor="Gold" Text="Travel back in time to the life of the hunter-gatherer in the Ring Fort. You will see how the Celts carried out their every-day activities as they cooked over open fires or in pits; ground corn for making bread or porridge on hand-powered querns; or made pottery, wooden bowls, goblets and platters."
+                       FontSize="Medium"    
+                       HorizontalOptions="CenterAndExpand"
+                       VerticalOptions="Center"/>
+                    <Label BackgroundColor="Gold" Text="Do you know who really discovered America? Visit the Brendan Boat – a leather hulled boat built by Tim Severin who sailed across mid-Atlantic, re-enacting the voyage of St. Brendan and the early Christian monks reputed to have discovered America centuries before Columbus!!"
+                       FontSize="Medium"    
+                       HorizontalOptions="CenterAndExpand"
+                       VerticalOptions="Center"/>
+                    <Label BackgroundColor="Gold" Text="Explore Craggaunowen Castle the 16th century restored Medieval Castle built in 1550 standing defiantly on a crag overlooking the lake and enjoy magnificient views of the countryside.  Observe rare and really interesting animal breeds such as wild boar and soay sheep - specimens of the pre-historic era.   - See more at: https://www.shannonheritage.com/Craggaunowen"
+                       FontSize="Medium"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Center"/>
+                    <Image x:Name="craggaunowenLarge" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" />
+                    <Image x:Name="craggaunowenLarge2" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" />
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

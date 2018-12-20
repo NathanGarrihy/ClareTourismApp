@@ -3,10 +3,36 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ClareTourismApp.DoolinCave">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <ScrollView>
+            <StackLayout BackgroundColor="DarkBlue">
+                <StackLayout Orientation="Horizontal"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center">
+                    <Image x:Name="doolinCaveSmall1" HorizontalOptions="Center" VerticalOptions="Start"/>
+                    <Image x:Name="doolinCaveSmall2" HorizontalOptions="Center" VerticalOptions="Center"/>
+                    <Image x:Name="doolinCaveSmall3" HorizontalOptions="Center" VerticalOptions="End"/>
+                </StackLayout>
+                <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                    <Label Text="Doolin Cave" Font="Bold, Large" HorizontalOptions="Center" Margin="2,1,2,1"/>
+                </StackLayout>
+                <StackLayout HorizontalOptions="Start" VerticalOptions="Center">
+                    <Label BackgroundColor="Yellow" Text="The award-winning Doolin Cave and visitor centre is home to the Great Stalactite. At 7.3 metres (23feet) it is the longest free-hanging stalactite in Europe. The Great Stalactite, suspended from the ceiling like a chandelier, is truly astounding. Visitors can hardly believe that it was formed from a single drop of water over thousands of years."
+                       FontSize="Medium"  
+                       HorizontalOptions="CenterAndExpand"
+                       VerticalOptions="Center"/>
+                    <Label BackgroundColor="Yellow" Text="Extend the adventure from underground to overground following a charming Farmland Nature Trail that takes a looped walk around the cave setting. The nature trail is home to indigenous species of flora along with rare and miniature breeds of animals. Visitors can enjoy delicious home-cooked foods and home-baked cakes in the comfortable surroundings of Doolin Cave Cafe." 
+                       FontSize="Medium"    
+                       HorizontalOptions="CenterAndExpand"
+                       VerticalOptions="Center"/>
+                    <Label  BackgroundColor="Yellow"  Text="To quota a TripAdviser review: 'My husband and I were driving around Ireland on vacation and just happened across Doolin's cave so we stopped in to check it out. It's mind boggling how many years it took to form the stalactite and how much work it took a few people to make this accessible to the average person. We had a very knowledgeable tour guide who made sure to point out fossils of prehistoric worms on the way down and other interesting features. How any times in your life will you be able to walk deep into a cave and marvel at mother nature? It's well worth a visit'"
+                       FontSize="Medium"    
+                       HorizontalOptions="CenterAndExpand"
+                       VerticalOptions="Center"/>
+           
+                    <Image x:Name="doolinCaveLarge" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+                    
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
