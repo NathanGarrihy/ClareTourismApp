@@ -4,6 +4,7 @@
              x:Class="ClareTourismApp.DoolinInfo">
     <ContentPage.Content>
         <ScrollView>
+            <!-- Add Images on top of page-->
             <StackLayout BackgroundColor="DodgerBlue">
                 <StackLayout Orientation="Horizontal"
                      HorizontalOptions="Center"
@@ -15,6 +16,7 @@
                 <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
                     <Label Text="Information About Doolin" Font="Bold, Large" HorizontalOptions="Center" Margin="2,1,2,1"/>
                 </StackLayout>
+                <!-- Add Images to bottom of page -->
                 <StackLayout HorizontalOptions="Start" VerticalOptions="Center">
                     <Label BackgroundColor="Gold" Text="Situated on the Wild Atlantic Way, boasting some of the most breathtaking scenery in Ireland and with a colourful and welcoming village ready to host you on your stay, Doolin has something for everyone."
                        FontSize="Medium"    
@@ -32,8 +34,11 @@
                            FontSize="Medium"
                            HorizontalOptions="Start"
                            VerticalOptions="Center"/>
+                    
+                    <!-- Add Images to bottom of page -->
                     <Image x:Name="doolinLarge1" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
                     <Image x:Name="doolinLarge2" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+                
                 </StackLayout>
             </StackLayout>
         </ScrollView>

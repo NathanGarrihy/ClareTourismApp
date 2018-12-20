@@ -3,7 +3,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
             xmlns:CliffsOfMoher="clr-namespace:ClareTourismApp"
              x:Class="ClareTourismApp.CliffsOfMoher">
-   <!-- Adding Cliffs Of Moher Tabs-->
+    
+    <!-- Adding Cliffs Of Moher Tabs-->
         <CliffsOfMoher:CliffsOfMoherInfo Title="Info" />
         <CliffsOfMoher:CliffsOhMoherVistorCenter Title="Visitor Center" />
+    
 </TabbedPage>

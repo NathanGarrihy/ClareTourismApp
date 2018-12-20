@@ -4,6 +4,7 @@
              x:Class="ClareTourismApp.LahinchInfo">
     <ContentPage.Content>
         <ScrollView>
+            <!-- Add Images on top of page-->
             <StackLayout BackgroundColor="DodgerBlue">
                 <StackLayout Orientation="Horizontal"
                      HorizontalOptions="Center"
@@ -15,6 +16,7 @@
                 <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
                     <Label Text="Information About Lahinch" Font="Bold, Large" HorizontalOptions="Center" Margin="2,1,2,1"/>
                 </StackLayout>
+                <!-- Main body-->
                 <StackLayout HorizontalOptions="Start" VerticalOptions="Center">
                     <Label BackgroundColor="Gold" Text="Lahinch is a small, welcoming and truly lively holiday resort with an atmosphere and energy that's all its own. It nestles at the head of Liscannor Bay, beside a 2 km long beach of golden sands. The shape of the resort creates Atlantic breakers that attract surfing and canoeing enthusiasts from all over the world. "
                        FontSize="Medium"    
@@ -28,7 +30,10 @@
                        FontSize="Medium"    
                        HorizontalOptions="CenterAndExpand"
                        VerticalOptions="Center"/>
+                    
+                    <!-- Add Image to bottom of page -->
                     <Image x:Name="lahinchInfoLarge" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" />
+               
                 </StackLayout>
             </StackLayout>
         </ScrollView>

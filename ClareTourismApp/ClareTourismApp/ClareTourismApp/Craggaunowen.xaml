@@ -4,6 +4,7 @@
              x:Class="ClareTourismApp.Craggaunowen">
     <ContentPage.Content>
         <ScrollView>
+            <!-- Add Images on top of page-->
             <StackLayout BackgroundColor="DodgerBlue">
                 <StackLayout Orientation="Horizontal"
                      HorizontalOptions="Center"
@@ -36,8 +37,11 @@
                        FontSize="Medium"
                        HorizontalOptions="Start"
                        VerticalOptions="Center"/>
+                    
+                    <!-- Add Images to bottom of page-->
                     <Image x:Name="craggaunowenLarge" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" />
                     <Image x:Name="craggaunowenLarge2" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" />
+                
                 </StackLayout>
             </StackLayout>
         </ScrollView>

@@ -15,6 +15,7 @@ namespace ClareTourismApp
                 HeightRequest = App.ScreenHeight / 3
             };
 
+            //  Create new Pin
             var pin = new CustomPin
             {
                 Type = PinType.Place,
@@ -25,8 +26,11 @@ namespace ClareTourismApp
                 Url = "https://www.cliffsofmoher.ie/"
             };
 
+            //  Add new Pin
             customMap.CustomPins = new List<CustomPin> { pin };
             customMap.Pins.Add(pin);
+           
+            //  Center Map Position
             customMap.MoveToRegion(MapSpan.FromCenterAndRadius(new Position(52.9717877, -9.4291244), Distance.FromMeters(5.0)));
 
             Content = customMap;

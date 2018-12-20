@@ -17,7 +17,7 @@ namespace ClareTourismApp
 			InitializeComponent ();
             SetUpImagesOnPage();
         }
-
+        
         private void SetUpImagesOnPage()
         {
             var assembly = typeof(AilweeCaveBirds);

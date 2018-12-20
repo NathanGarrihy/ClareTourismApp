@@ -4,6 +4,7 @@
              x:Class="ClareTourismApp.Bunratty">
     <ContentPage.Content>
         <ScrollView>
+            <!-- Add Images on top of page-->
             <StackLayout BackgroundColor="DodgerBlue">
                 <StackLayout Orientation="Horizontal"
                      HorizontalOptions="Center"
@@ -12,6 +13,7 @@
                     <Image x:Name="bunrattyCastle2" HorizontalOptions="Center" VerticalOptions="Center"/>
                     <Image x:Name="bunrattyCastle3" HorizontalOptions="Center" VerticalOptions="End"/>
                 </StackLayout>
+                <!-- Main body-->
                 <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
                     <Label Text="Bunratty Castle" Font="Bold, Large" HorizontalOptions="Center" Margin="2,1,2,1"/>
                 </StackLayout>
@@ -32,7 +34,10 @@
                        FontSize="Medium"
                        HorizontalOptions="Start"
                        VerticalOptions="Center"/>
+                    
+                    <!-- add image to bottom of page-->
                     <Image x:Name="bunrattyCastleLarge" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" />
+                
                 </StackLayout>
             </StackLayout>
         </ScrollView>

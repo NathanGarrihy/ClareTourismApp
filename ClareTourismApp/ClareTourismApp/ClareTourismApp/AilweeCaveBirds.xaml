@@ -4,6 +4,7 @@
              x:Class="ClareTourismApp.AilweeCaveBirds">
     <ContentPage.Content>
         <ScrollView>
+            <!-- Add Images on top of page-->
             <StackLayout BackgroundColor="DarkBlue">
                 <StackLayout Orientation="Horizontal"
                     HorizontalOptions="Center"
@@ -12,6 +13,7 @@
                     <Image x:Name="ailweeBirds2" HorizontalOptions="Center" VerticalOptions="Center"/>
                     <Image x:Name="ailweeBirds3" HorizontalOptions="Center" VerticalOptions="End"/>
                 </StackLayout>
+                <!-- Main Body-->
                 <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
                     <Label Text="Aiwee Cave Birds of Pray Centre" Font="Bold, Large" HorizontalOptions="Center" Margin="2,1,2,1"/>
                 </StackLayout>
@@ -32,9 +34,11 @@
                        FontSize="Medium"    
                        HorizontalOptions="CenterAndExpand"
                        VerticalOptions="Center"/>
-
+                    
+                    <!-- Add Large Images to bottem of page-->
                     <Image x:Name="ailweeBirdsLarge1" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
                     <Image x:Name="ailweeBirdsLarge2" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+                
                 </StackLayout>
             </StackLayout>
         </ScrollView>

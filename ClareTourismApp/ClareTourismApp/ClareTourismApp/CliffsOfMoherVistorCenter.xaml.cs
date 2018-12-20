@@ -33,7 +33,6 @@ namespace ClareTourismApp
 
             string largeVisitor = "ClareTourismApp.Assets.Images.visitorCenter.jpg";
             visitorCenter.Source = ImageSource.FromResource(largeVisitor, assembly);
-
         }
     }
 }

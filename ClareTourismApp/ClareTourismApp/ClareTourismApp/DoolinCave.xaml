@@ -4,6 +4,7 @@
              x:Class="ClareTourismApp.DoolinCave">
     <ContentPage.Content>
         <ScrollView>
+            <!-- Add Images on top of page-->
             <StackLayout BackgroundColor="DarkBlue">
                 <StackLayout Orientation="Horizontal"
                     HorizontalOptions="Center"
@@ -16,6 +17,7 @@
                     <Label Text="Doolin Cave" Font="Bold, Large" HorizontalOptions="Center" Margin="2,1,2,1"/>
                 </StackLayout>
                 <StackLayout HorizontalOptions="Start" VerticalOptions="Center">
+                    <!-- Main body -->
                     <Label BackgroundColor="Yellow" Text="The award-winning Doolin Cave and visitor centre is home to the Great Stalactite. At 7.3 metres (23feet) it is the longest free-hanging stalactite in Europe. The Great Stalactite, suspended from the ceiling like a chandelier, is truly astounding. Visitors can hardly believe that it was formed from a single drop of water over thousands of years."
                        FontSize="Medium"  
                        HorizontalOptions="CenterAndExpand"
@@ -28,7 +30,8 @@
                        FontSize="Medium"    
                        HorizontalOptions="CenterAndExpand"
                        VerticalOptions="Center"/>
-           
+                    
+                    <!-- Add Images to bottom of page-->
                     <Image x:Name="doolinCaveLarge" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
                     
                 </StackLayout>

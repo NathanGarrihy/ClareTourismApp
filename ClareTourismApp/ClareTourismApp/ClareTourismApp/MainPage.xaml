@@ -4,96 +4,99 @@
              xmlns:local="clr-namespace:ClareTourismApp"
              x:Class="ClareTourismApp.MainPage">
     <ScrollView>
+        <!-- Add Images on top of page-->
         <StackLayout BackgroundColor="DodgerBlue">
             <Image x:Name="clareFlag" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"/>
             <StackLayout>
-            <Label Text="-Clare Tourism-" Font="50"
+                <!-- Heading -->
+                <Label Text="-Clare Tourism-" Font="50"
                BackgroundColor="Yellow" FontAttributes="Bold"
                TextColor="Blue" VerticalOptions="Start"
                HorizontalOptions="Center" />
                 <StackLayout Orientation="Horizontal"
                          VerticalOptions="Center"
                          HorizontalOptions="Center">
+                    <!-- Navigation Buttons -->
                     <Button x:Name="Cliffsbtn" Text="The Cliffs Of Moher"
                 BackgroundColor="Yellow" BorderColor="Blue" TextColor="Blue"
                 WidthRequest="350" HeightRequest="70" FontAttributes="Bold"
                 BorderWidth="4" FontSize="Large"
                 Clicked="Cliffsbtn_Clicked"/>
-                <Image x:Name="cliffsSmall" WidthRequest="100"
+                    <Image x:Name="cliffsSmall" WidthRequest="100"
                    HeightRequest="70" />
-            </StackLayout>
-            <StackLayout Orientation="Horizontal"
+                </StackLayout>
+                <StackLayout Orientation="Horizontal"
                          VerticalOptions="Center"
                          HorizontalOptions="Center">
-                <Button x:Name="Burrenbtn" Text="The Burren"
+                    <Button x:Name="Burrenbtn" Text="The Burren"
                 BackgroundColor="Blue" BorderColor="Yellow" TextColor="Yellow"
                 VerticalOptions="Center" HorizontalOptions="Center"
                 WidthRequest="350" HeightRequest="70" FontAttributes="Bold"
                 BorderWidth="4" FontSize="Large"
                 Clicked="Burrenbtn_Clicked"/>
-                <Image x:Name="burrenSmall" WidthRequest="100"
+                    <Image x:Name="burrenSmall" WidthRequest="100"
                        HeightRequest="70" />
-            </StackLayout>
-            <StackLayout Orientation="Horizontal"
+                </StackLayout>
+                <StackLayout Orientation="Horizontal"
                          VerticalOptions="Center"
                          HorizontalOptions="Center">
-                <Button x:Name="Bunrattybtn" Text="Bunratty Castle"
+                    <Button x:Name="Bunrattybtn" Text="Bunratty Castle"
                 BackgroundColor="Yellow" BorderColor="Blue" TextColor="Blue"
                 VerticalOptions="Center" HorizontalOptions="Center" FontAttributes="Bold"
                 WidthRequest="350" HeightRequest="70"
                 BorderWidth="4" FontSize="Large"
                 Clicked="Bunrattybtn_Clicked"/>
-                <Image x:Name="bunrattySmall" WidthRequest="100"
+                    <Image x:Name="bunrattySmall" WidthRequest="100"
                        HeightRequest="70" />
-            </StackLayout>
-            <StackLayout Orientation="Horizontal"
+                </StackLayout>
+                <StackLayout Orientation="Horizontal"
                          VerticalOptions="Center"
                          HorizontalOptions="Center">
-                <Button x:Name="AilweeCavebtn" Text="Ailwee Cave"
+                    <Button x:Name="AilweeCavebtn" Text="Ailwee Cave"
                 BackgroundColor="Blue" BorderColor="Yellow" TextColor="Yellow"
                 VerticalOptions="Center" HorizontalOptions="Center"
                 WidthRequest="350" HeightRequest="70" FontAttributes="Bold"
                 BorderWidth="4" FontSize="Large"
                 Clicked="AilweeCavebtn_Clicked"/>
-                <Image x:Name="ailweeSmall" WidthRequest="100"
+                    <Image x:Name="ailweeSmall" WidthRequest="100"
                        HeightRequest="70" />
-            </StackLayout>
-            <StackLayout Orientation="Horizontal"
+                </StackLayout>
+                <StackLayout Orientation="Horizontal"
                          VerticalOptions="Center"
                          HorizontalOptions="Center">
-                <Button x:Name="Doolinbtn" Text="Doolin"
+                    <Button x:Name="Doolinbtn" Text="Doolin"
                 BackgroundColor="Yellow" BorderColor="Blue" TextColor="Blue"
                 VerticalOptions="Center" HorizontalOptions="Center" FontAttributes="Bold"
                 WidthRequest="350" HeightRequest="70"
                 BorderWidth="4" FontSize="Large"
                 Clicked="Doolinbtn_Clicked"/>
-                <Image x:Name="doolinSmall" WidthRequest="100"
+                    <Image x:Name="doolinSmall" WidthRequest="100"
                        HeightRequest="70" />
-            </StackLayout>
-            <StackLayout Orientation="Horizontal"
+                </StackLayout>
+                <StackLayout Orientation="Horizontal"
                          VerticalOptions="Center"
                          HorizontalOptions="Center">
-                <Button x:Name="Craggaunowenbtn" Text="Craggaunowen"
+                    <Button x:Name="Craggaunowenbtn" Text="Craggaunowen"
                 BackgroundColor="Blue" BorderColor="Yellow" TextColor="Yellow"
                 VerticalOptions="Center" HorizontalOptions="Center" FontAttributes="Bold"
                 WidthRequest="350" HeightRequest="70"
                 BorderWidth="4" FontSize="Large"
                 Clicked="Craggaunowenbtn_Clicked"/>
-                <Image x:Name="craggaunowenSmall" WidthRequest="100"
+                    <Image x:Name="craggaunowenSmall" WidthRequest="100"
                        HeightRequest="70" />
-            </StackLayout>
-            <StackLayout Orientation="Horizontal"
+                </StackLayout>
+                <StackLayout Orientation="Horizontal"
                          VerticalOptions="Center"
                          HorizontalOptions="Center">
-                <Button x:Name="Lahinchbtn" Text="Lahinch"
+                    <Button x:Name="Lahinchbtn" Text="Lahinch"
                 BackgroundColor="Yellow" BorderColor="Blue" TextColor="Blue"
                 VerticalOptions="Center" HorizontalOptions="Center" FontAttributes="Bold"
                 WidthRequest="350" HeightRequest="70"
                 BorderWidth="4" FontSize="Large"
                 Clicked="Lahinchbtn_Clicked"/>
-                <Image x:Name="lahinchSmall" WidthRequest="100"
+                    <Image x:Name="lahinchSmall" WidthRequest="100"
                        HeightRequest="70" />
-            </StackLayout>
+                </StackLayout>
                 <StackLayout Orientation="Horizontal"
                          VerticalOptions="Center"
                          HorizontalOptions="Center">
@@ -108,11 +111,12 @@
                 </StackLayout>
             </StackLayout>
             <StackLayout>
+                
+                <!-- Add image of cliffs of moher -->
                 <Image x:Name="cliffsImage" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"/>
                 <Label Text="The Cliffs Of Moher" Font="Small" HorizontalOptions="Center"/>
+            
             </StackLayout>
         </StackLayout>
-       
     </ScrollView>
-
 </ContentPage>

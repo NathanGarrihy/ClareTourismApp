@@ -3,7 +3,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
             xmlns:Lahinch="clr-namespace:ClareTourismApp"
              x:Class="ClareTourismApp.Lahinch">
+    
      <!-- Adding Cliffs Of Moher Tabs-->
         <Lahinch:LahinchInfo Title="Info" />
         <Lahinch:LahinchGolfClub Title="Lahinch Golf Club" />
+    
 </TabbedPage>

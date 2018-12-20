@@ -4,6 +4,7 @@
              x:Class="ClareTourismApp.LahinchGolfClub">
     <ContentPage.Content>
         <ScrollView>
+            <!-- Add Images on top of page-->
             <StackLayout BackgroundColor="DarkBlue">
                 <StackLayout Orientation="Horizontal"
                     HorizontalOptions="Center"
@@ -16,6 +17,7 @@
                     <Label Text="Lahinch Golf Club" Font="Bold, Large" HorizontalOptions="Center" Margin="2,1,2,1"/>
                 </StackLayout>
                 <StackLayout HorizontalOptions="Start" VerticalOptions="Center">
+                    <!-- Main body -->
                     <Label BackgroundColor="Yellow" Text="It has been described as 'The St Andrews of Ireland' and many other complimentary titles. Those who know and love the place firmly believe that Lahinch Golf Club doesn't need comparison with any of the game's other world class venues. From the infant days back in 1892 up to its 125th anniversary, the Club has stood out on its own merits as a golfing institution like none other."
                        FontSize="Medium"  
                        HorizontalOptions="CenterAndExpand"
@@ -28,7 +30,8 @@
                        FontSize="Medium"    
                        HorizontalOptions="CenterAndExpand"
                        VerticalOptions="Center"/>
-                   
+
+                    <!-- Add Images to bottom of page -->
                     <Image x:Name="lahinchGCLarge1" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
                     <Image x:Name="lahinchGCLarge2" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
                     <Image x:Name="lahinchGCLarge3" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>

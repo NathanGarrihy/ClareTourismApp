@@ -4,6 +4,9 @@
              xmlns:local="clr-namespace:ClareTourismApp;assembly=ClareTourismApp"
              x:Class="ClareTourismApp.MapPage">
     <ContentPage.Content>
+      
+        <!-- Add Map to Page-->
         <local:CustomMap x:Name="customMap" MapType="Street" WidthRequest="{x:Static local:App.ScreenWidth}" HeightRequest="{x:Static local:App.ScreenHeight}" />
+   
     </ContentPage.Content>
 </ContentPage>

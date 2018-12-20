@@ -4,6 +4,7 @@
              x:Class="ClareTourismApp.CliffsOhMoherVistorCenter">
     <ContentPage.Content>
         <ScrollView>
+            <!-- Add Images on top of page-->
             <StackLayout BackgroundColor="DarkBlue">
             <StackLayout Orientation="Horizontal"
                     HorizontalOptions="Center"
@@ -16,6 +17,7 @@
                     <Label Text="The Cliffs Of Moher Visitor Center" Font="Bold, Large" HorizontalOptions="Center" Margin="2,1,2,1"/>
                 </StackLayout>
                 <StackLayout HorizontalOptions="Start" VerticalOptions="Center">
+                    <!-- Main body-->
                     <Label BackgroundColor="Yellow" Text="The award winning eco-friendly centre has been built nestled into the hillside and features a restaurant, cafe's, visitor information and gift shops. The unmissable cliffs exhibition animates the story of the Cliffs, presenting the geology, wildlife and human aspects in an entertaining and informative way."
                        FontSize="Medium"  
                        HorizontalOptions="CenterAndExpand"
@@ -33,7 +35,9 @@
                        HorizontalOptions="Start"
                        VerticalOptions="Center"/>
 
+                    <!-- Add Images to bottom of page-->
                     <Image x:Name="visitorCenter" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+               
                 </StackLayout>
             </StackLayout>
         </ScrollView>
