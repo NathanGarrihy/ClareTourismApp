@@ -6,6 +6,6 @@
 
              <!-- Adding Burren Tabs-->
             <Burren:BurrenInfo Title="Info" />
-            <Burren:BurrenInfo Title="Burren OEC" />
+            <Burren:BurrenOEC Title="Burren OEC" />
 
 </TabbedPage>

@@ -28,11 +28,10 @@
                        FontSize="Medium"    
                        HorizontalOptions="CenterAndExpand"
                        VerticalOptions="Center"/>
-                    <Label BackgroundColor="Gold" Text="You can find accomidation nearby at Liscannor (6km south) and Doolin (7km north)."
-                       FontSize="Medium"
-                       HorizontalOptions="Start"
-                       VerticalOptions="Center"/>
-                  
+                <Label BackgroundColor="Gold" Text="To get in contact with the cliffs of moher you can call them Telephone: +353 65 708 6141, Mobile: +353 87 656 6133. You can also e-mail them: info@cliffsofmoher.ie."
+                           FontSize="Medium"
+                           HorizontalOptions="Start"
+                           VerticalOptions="Center"/>
                     <Image x:Name="cliffsLarge" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
                 </StackLayout>
         </StackLayout>

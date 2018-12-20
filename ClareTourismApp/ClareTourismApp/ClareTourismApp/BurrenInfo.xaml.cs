@@ -33,6 +33,9 @@ namespace ClareTourismApp
 
             string walksBurren = "ClareTourismApp.Assets.Images.burrenWalks.jpg";
             burrenWalk.Source = ImageSource.FromResource(walksBurren, assembly);
+
+            string largeBurren = "ClareTourismApp.Assets.Images.burrenLarge.jpg";
+            burrenLarge.Source = ImageSource.FromResource(largeBurren, assembly);
         }
     }
 }
