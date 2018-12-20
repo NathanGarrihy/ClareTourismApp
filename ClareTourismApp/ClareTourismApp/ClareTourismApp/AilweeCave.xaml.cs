@@ -9,12 +9,12 @@ using Xamarin.Forms.Xaml;
 
 namespace ClareTourismApp
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class AilweeCave : ContentPage
-	{
-		public AilweeCave ()
-		{
-			InitializeComponent ();
-		}
-	}
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class AilweeCave : TabbedPage
+    {
+        public AilweeCave()
+        {
+            InitializeComponent();
+        }
+    }
 }

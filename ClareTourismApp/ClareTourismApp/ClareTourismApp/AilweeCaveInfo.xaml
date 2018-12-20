@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ClareTourismApp.AilweeCaveInfo">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout BackgroundColor="DodgerBlue">
+                <StackLayout Orientation="Horizontal"
+                     HorizontalOptions="Center"
+                     VerticalOptions="Center">
+                    <Image x:Name="ailweeCave1" HorizontalOptions="Center" VerticalOptions="Start"/>
+                    <Image x:Name="ailweeCave2" HorizontalOptions="Center" VerticalOptions="Center"/>
+                    <Image x:Name="ailweeCave3" HorizontalOptions="Center" VerticalOptions="End"/>
+                </StackLayout>
+                <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                    <Label Text="Information About Ailwee Cave" Font="Bold, Large" HorizontalOptions="Center" Margin="2,1,2,1"/>
+                </StackLayout>
+                <StackLayout HorizontalOptions="Start" VerticalOptions="Center">
+                    <Label BackgroundColor="Gold" Text="Located in the heart of the Burren In County Clare. Forty minutes from both Galway and Shannon. Perched high on its Burren terraced mountainside with what has to be one of the most spectacular views of Galway Bay. It is a must for all who find themselves in the area. The Burren is a place full of wonder, beauty and discovery. Let the staff at Ailwee welcome you to the dramatic underworld of this area."
+                       FontSize="Medium"    
+                       HorizontalOptions="CenterAndExpand"
+                       VerticalOptions="Center"/>
+                    <Label BackgroundColor="Gold" Text="The tour consists of a 30-minute stroll through the beautiful caverns – over bridged chasms, under weird formations and alongside the thunderous waterfall which sometimes gently sprays the unsuspecting visitor! Marvel at the frozen waterfall and explore the now extinct brown bears' bones. The guides will bring you back to the outside world where you can browse and shop in a distinctly different gift shop which is housed in the award-winning complex that guards the entrance to the Burren underground."
+                       FontSize="Medium"    
+                       HorizontalOptions="CenterAndExpand"
+                       VerticalOptions="Center"/>
+                    <Label BackgroundColor="Gold" Text="To get in contact with the cliffs of moher you can call them Telephone: +353 65 707 7036. Or you can fill out a contact form on their website 'www.aillweecave.ie'"
+                           FontSize="Medium"
+                           HorizontalOptions="Start"
+                           VerticalOptions="Center"/>
+                    <Image x:Name="ailweeCaveLarge" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
