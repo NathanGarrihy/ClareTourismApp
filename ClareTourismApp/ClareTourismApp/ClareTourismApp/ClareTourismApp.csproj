@@ -61,6 +61,13 @@
     <None Remove="Assets\Images\doolinSmall2.jpg" />
     <None Remove="Assets\Images\doolinSmall3.jpg" />
     <None Remove="Assets\Images\lahinch1.jpg" />
+    <None Remove="Assets\Images\lahinchGCLarge1.jpg" />
+    <None Remove="Assets\Images\lahinchGCLarge2.jpg" />
+    <None Remove="Assets\Images\lahinchGCLarge3.jpg" />
+    <None Remove="Assets\Images\lahinchGCLarge4.jpg" />
+    <None Remove="Assets\Images\lahinchGCsmall1.jpg" />
+    <None Remove="Assets\Images\lahinchGCsmall2.jpg" />
+    <None Remove="Assets\Images\lahinchGCsmall3.jpg" />
     <None Remove="Assets\Images\lahinchInfo1.jpg" />
     <None Remove="Assets\Images\lahinchInfo2.jpg" />
     <None Remove="Assets\Images\lahinchInfo3.jpg" />
@@ -124,6 +131,13 @@
     <EmbeddedResource Include="Assets\Images\doolinSmall2.jpg" />
     <EmbeddedResource Include="Assets\Images\doolinSmall3.jpg" />
     <EmbeddedResource Include="Assets\Images\lahinch1.jpg" />
+    <EmbeddedResource Include="Assets\Images\lahinchGCLarge1.jpg" />
+    <EmbeddedResource Include="Assets\Images\lahinchGCLarge2.jpg" />
+    <EmbeddedResource Include="Assets\Images\lahinchGCLarge3.jpg" />
+    <EmbeddedResource Include="Assets\Images\lahinchGCLarge4.jpg" />
+    <EmbeddedResource Include="Assets\Images\lahinchGCsmall1.jpg" />
+    <EmbeddedResource Include="Assets\Images\lahinchGCsmall2.jpg" />
+    <EmbeddedResource Include="Assets\Images\lahinchGCsmall3.jpg" />
     <EmbeddedResource Include="Assets\Images\lahinchInfo1.jpg" />
     <EmbeddedResource Include="Assets\Images\lahinchInfo2.jpg" />
     <EmbeddedResource Include="Assets\Images\lahinchInfo3.jpg" />
