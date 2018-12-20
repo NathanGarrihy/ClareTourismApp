@@ -41,10 +41,13 @@
     <None Remove="Assets\Images\cliffsInfo1.jpg" />
     <None Remove="Assets\Images\cliffsInfo2.jpg" />
     <None Remove="Assets\Images\cliffsInfo3.jpg" />
+    <None Remove="Assets\Images\CliffsLarge1.jpg" />
+    <None Remove="Assets\Images\CliffsLarge2.jpg" />
     <None Remove="Assets\Images\CliffsSmall.jpg" />
     <None Remove="Assets\Images\cliffsVisitor1.jpg" />
     <None Remove="Assets\Images\cliffsVisitor2.jpg" />
     <None Remove="Assets\Images\cliffsVisitor3.jpg" />
+    <None Remove="Assets\Images\cliffsVisitorLarge.jpg" />
     <None Remove="Assets\Images\craggaunowen1.jpg" />
     <None Remove="Assets\Images\craggaunowen2.jpg" />
     <None Remove="Assets\Images\craggaunowen3.jpg" />
@@ -109,12 +112,15 @@
     <EmbeddedResource Include="Assets\Images\cliffsInfo1.jpg" />
     <EmbeddedResource Include="Assets\Images\cliffsInfo2.jpg" />
     <EmbeddedResource Include="Assets\Images\cliffsInfo3.jpg" />
+    <EmbeddedResource Include="Assets\Images\CliffsLarge1.jpg" />
+    <EmbeddedResource Include="Assets\Images\CliffsLarge2.jpg" />
     <EmbeddedResource Include="Assets\Images\CliffsSmall.jpg" />
     <EmbeddedResource Include="Assets\Images\cliffsVisitor1.jpg" />
     <EmbeddedResource Include="Assets\Images\cliffsVisitor2.jpg">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Assets\Images\cliffsVisitor3.jpg" />
+    <EmbeddedResource Include="Assets\Images\cliffsVisitorLarge.jpg" />
     <EmbeddedResource Include="Assets\Images\craggaunowen1.jpg" />
     <EmbeddedResource Include="Assets\Images\craggaunowen2.jpg" />
     <EmbeddedResource Include="Assets\Images\craggaunowen3.jpg" />

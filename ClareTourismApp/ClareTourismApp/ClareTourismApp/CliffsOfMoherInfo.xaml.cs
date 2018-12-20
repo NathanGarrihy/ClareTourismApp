@@ -33,6 +33,12 @@ namespace ClareTourismApp
             string largeCliffs = "ClareTourismApp.Assets.Images.LargeCliffs.jpg";
             cliffsLarge.Source = ImageSource.FromResource(largeCliffs, assembly);
 
+            string largeCliffs1 = "ClareTourismApp.Assets.Images.CliffsLarge1.jpg";
+            cliffsLarge1.Source = ImageSource.FromResource(largeCliffs1, assembly);
+
+            string largeCliffs2 = "ClareTourismApp.Assets.Images.CliffsLarge2.jpg";
+            cliffsLarge2.Source = ImageSource.FromResource(largeCliffs2, assembly);
+
         }
 	}
 }

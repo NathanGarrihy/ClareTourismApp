@@ -37,6 +37,7 @@
 
                     <!-- Add Images to bottom of page-->
                     <Image x:Name="visitorCenter" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+                    <Image x:Name="centreLarge" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
                
                 </StackLayout>
             </StackLayout>
