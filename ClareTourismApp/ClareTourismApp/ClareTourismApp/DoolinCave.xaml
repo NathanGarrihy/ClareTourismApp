@@ -26,7 +26,7 @@
                        FontSize="Medium"    
                        HorizontalOptions="CenterAndExpand"
                        VerticalOptions="Center"/>
-                    <Label  BackgroundColor="Yellow"  Text="To quota a TripAdviser review: 'My husband and I were driving around Ireland on vacation and just happened across Doolin's cave so we stopped in to check it out. It's mind boggling how many years it took to form the stalactite and how much work it took a few people to make this accessible to the average person. We had a very knowledgeable tour guide who made sure to point out fossils of prehistoric worms on the way down and other interesting features. How any times in your life will you be able to walk deep into a cave and marvel at mother nature? It's well worth a visit'"
+                    <Label  BackgroundColor="Yellow"  Text="To quote a TripAdviser review: 'My husband and I were driving around Ireland on vacation and just happened across Doolin's cave so we stopped in to check it out. It's mind boggling how many years it took to form the stalactite and how much work it took a few people to make this accessible to the average person. We had a very knowledgeable tour guide who made sure to point out fossils of prehistoric worms on the way down and other interesting features. How any times in your life will you be able to walk deep into a cave and marvel at mother nature? It's well worth a visit'"
                        FontSize="Medium"    
                        HorizontalOptions="CenterAndExpand"
                        VerticalOptions="Center"/>

@@ -18,7 +18,7 @@
                 </StackLayout>
                 <!-- Main body-->
                 <StackLayout HorizontalOptions="Start" VerticalOptions="Center">
-                    <Label BackgroundColor="Yellow" Text="he Burren Outdoor Education and Training Centre is a purpose built residential centre located in the heart of the Burren and only a few minutes from the Wild Atlantic Way. They provide high quality outdoor and adventure activities to people of all ages but especially to those in the education and youth sectors. "
+                    <Label BackgroundColor="Yellow" Text="The Burren Outdoor Education and Training Centre is a purpose built residential centre located in the heart of the Burren and only a few minutes from the Wild Atlantic Way. They provide high quality outdoor and adventure activities to people of all ages but especially to those in the education and youth sectors. "
                        FontSize="Medium"  
                        HorizontalOptions="CenterAndExpand"
                        VerticalOptions="Center"/>

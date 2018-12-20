@@ -26,7 +26,7 @@
                        FontSize="Medium"    
                        HorizontalOptions="CenterAndExpand"
                        VerticalOptions="Center"/>
-                    <Label  BackgroundColor="Yellow"  Text="The Cliffs of Moher are sea cliffs located at the southwestern edge of the Burren region in County Clare, Ireland. They run for about 14 kilometres. At their southern end, they rise 120 metres (390 ft) above the Atlantic Ocean at Hag's Head, and stretch eight kilometres to the north, reach their maximum height of 214 metres (702 ft) just north of O'Brien's Tower, a round stone tower near the midpoint of the cliffs, built in 1835 by Sir Cornelius O'Brien, then continue at lower heights."
+                    <Label  BackgroundColor="Yellow"  Text="The cliffs of Moher visitor center contains a range of videos and scripture explaining anything to do with the cliffs of moher. Whether it be information about the surrounding birds and animals (such as the seagulls) or information about the local flora, the indoor visitor center has got it all covered in great detail!"
                        FontSize="Medium"    
                        HorizontalOptions="CenterAndExpand"
                        VerticalOptions="Center"/>

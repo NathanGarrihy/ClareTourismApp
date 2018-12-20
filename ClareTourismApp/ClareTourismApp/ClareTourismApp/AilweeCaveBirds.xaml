@@ -18,19 +18,19 @@
                     <Label Text="Aiwee Cave Birds of Pray Centre" Font="Bold, Large" HorizontalOptions="Center" Margin="2,1,2,1"/>
                 </StackLayout>
                 <StackLayout HorizontalOptions="Start" VerticalOptions="Center">
-                    <Label BackgroundColor="Yellow" Text="Since 2008 the BIRDS OF PREY CENTRE has been educating and entertaining visitors with dynamic flying displays set against the dramatic Burren Landscape. The mission of the Centre is to aid the conservation of Birds of Prey through visitor awareness and education, whilst actively fund raising for Raptor conservation monitoring efforts within Ireland."
+                    <Label BackgroundColor="Yellow" Text="Since 2008 the birds of prey centre has been educating and entertaining visitors with dynamic flying displays set against the dramatic Burren Landscape. The mission of the Centre is to aid the conservation of Birds of Prey through visitor awareness and education, whilst actively fund raising for Raptor conservation monitoring efforts within Ireland."
                        FontSize="Medium"  
                        HorizontalOptions="CenterAndExpand"
                        VerticalOptions="Center"/>
-                    <Label BackgroundColor="Yellow" Text="The Centre offers: DYNAMIC FLYING DISPLAYS where the visitor can interact and get up close and personal to the birds... A HOME to Eagles, Falcons, Hawks, and Owls from all over the world. " 
+                    <Label BackgroundColor="Yellow" Text="The Centre offers: Dynamic Flying Displays where the visitor can interact and get up close and personal to the birds... A Home to Eagles, Falcons, Hawks, and Owls from all over the world. " 
                        FontSize="Medium"    
                        HorizontalOptions="CenterAndExpand"
                        VerticalOptions="Center"/>
-                    <Label  BackgroundColor="Yellow"  Text="INFORMATION BOARDS AND AUDIO GUIDES that provide a deep insight into aspect of Birds of Prey. EDUCATION into the amazing world of Raptors, their biology, conservation and the ancient art of Falconry."
+                    <Label  BackgroundColor="Yellow"  Text="Information Boards And Audio Guides that provide a deep insight into aspect of Birds of Prey... Education into the amazing world of Raptors, their biology, conservation and the ancient art of Falconry."
                        FontSize="Medium"    
                        HorizontalOptions="CenterAndExpand"
                        VerticalOptions="Center"/>
-                    <Label  BackgroundColor="Yellow"  Text="HAWK WALKS which are a once in a life time opportunity to interact with some of nature's top predators, as well as a range of other activities all under the safe watch of trained professionals. Perfect for all ages!"
+                    <Label  BackgroundColor="Yellow"  Text="Hawk Walks which are a once in a life time opportunity to interact with some of nature's top predators, as well as a range of other activities all under the safe watch of trained professionals. Perfect for all ages!"
                        FontSize="Medium"    
                        HorizontalOptions="CenterAndExpand"
                        VerticalOptions="Center"/>
