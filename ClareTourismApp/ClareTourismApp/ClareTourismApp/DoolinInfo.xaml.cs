@@ -15,6 +15,28 @@ namespace ClareTourismApp
 		public DoolinInfo ()
 		{
 			InitializeComponent ();
-		}
-	}
+            SetUpImagesOnPage();
+        }
+
+        private void SetUpImagesOnPage()
+        {
+            var assembly = typeof(DoolinInfo);
+
+            string smallDoolin1 = "ClareTourismApp.Assets.Images.doolinSmall1.jpg";
+            doolinSmall1.Source = ImageSource.FromResource(smallDoolin1, assembly);
+
+            string smallDoolin2 = "ClareTourismApp.Assets.Images.doolinSmall2.jpg";
+            doolinSmall2.Source = ImageSource.FromResource(smallDoolin2, assembly);
+
+            string smallDoolin3 = "ClareTourismApp.Assets.Images.doolinSmall3.jpg";
+            doolinSmall3.Source = ImageSource.FromResource(smallDoolin3, assembly);
+
+            string largeDoolin1 = "ClareTourismApp.Assets.Images.doolinLarge1.jpg";
+            doolinLarge1.Source = ImageSource.FromResource(largeDoolin1, assembly);
+
+            string largeDoolin2 = "ClareTourismApp.Assets.Images.doolinLarge2.jpg";
+            doolinLarge2.Source = ImageSource.FromResource(largeDoolin2, assembly);
+
+        }
+    }
 }

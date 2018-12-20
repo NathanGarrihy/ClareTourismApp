@@ -5,6 +5,7 @@
              x:Class="ClareTourismApp.Doolin">
             
             <!-- Adding Doolin tabs to page -->
-    
-    
+             <Doolin:DoolinInfo Title="Info" />
+             <Doolin:DoolinCave Title="Doolin Cave" />
+
 </TabbedPage>

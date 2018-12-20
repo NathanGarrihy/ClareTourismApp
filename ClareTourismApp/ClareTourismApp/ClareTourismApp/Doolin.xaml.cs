@@ -10,7 +10,7 @@ using Xamarin.Forms.Xaml;
 namespace ClareTourismApp
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class Doolin : ContentPage
+	public partial class Doolin : TabbedPage
 	{
 		public Doolin ()
 		{

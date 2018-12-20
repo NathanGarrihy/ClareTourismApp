@@ -47,6 +47,11 @@
     <None Remove="Assets\Images\cliffsVisitor3.jpg" />
     <None Remove="Assets\Images\craggaunowen1.jpg" />
     <None Remove="Assets\Images\doolin1.jpg" />
+    <None Remove="Assets\Images\doolinLarge1.jpg" />
+    <None Remove="Assets\Images\doolinLarge2.jpg" />
+    <None Remove="Assets\Images\doolinSmall1.jpg" />
+    <None Remove="Assets\Images\doolinSmall2.jpg" />
+    <None Remove="Assets\Images\doolinSmall3.jpg" />
     <None Remove="Assets\Images\lahinch1.jpg" />
     <None Remove="Assets\Images\LargeCliffs.jpg" />
     <None Remove="Assets\Images\mapIcon.png" />
@@ -93,6 +98,11 @@
     <EmbeddedResource Include="Assets\Images\cliffsVisitor3.jpg" />
     <EmbeddedResource Include="Assets\Images\craggaunowen1.jpg" />
     <EmbeddedResource Include="Assets\Images\doolin1.jpg" />
+    <EmbeddedResource Include="Assets\Images\doolinLarge1.jpg" />
+    <EmbeddedResource Include="Assets\Images\doolinLarge2.jpg" />
+    <EmbeddedResource Include="Assets\Images\doolinSmall1.jpg" />
+    <EmbeddedResource Include="Assets\Images\doolinSmall2.jpg" />
+    <EmbeddedResource Include="Assets\Images\doolinSmall3.jpg" />
     <EmbeddedResource Include="Assets\Images\lahinch1.jpg" />
     <EmbeddedResource Include="Assets\Images\LargeCliffs.jpg" />
     <EmbeddedResource Include="Assets\Images\mapIcon.png" />

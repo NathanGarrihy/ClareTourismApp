@@ -3,10 +3,39 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ClareTourismApp.DoolinInfo">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <ScrollView>
+            <StackLayout BackgroundColor="DodgerBlue">
+                <StackLayout Orientation="Horizontal"
+                     HorizontalOptions="Center"
+                     VerticalOptions="Center">
+                    <Image x:Name="doolinSmall1" HorizontalOptions="Center" VerticalOptions="Start"/>
+                    <Image x:Name="doolinSmall2" HorizontalOptions="Center" VerticalOptions="Center"/>
+                    <Image x:Name="doolinSmall3" HorizontalOptions="Center" VerticalOptions="End"/>
+                </StackLayout>
+                <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                    <Label Text="Information About Doolin" Font="Bold, Large" HorizontalOptions="Center" Margin="2,1,2,1"/>
+                </StackLayout>
+                <StackLayout HorizontalOptions="Start" VerticalOptions="Center">
+                    <Label BackgroundColor="Gold" Text="Situated on the Wild Atlantic Way, boasting some of the most breathtaking scenery in Ireland and with a colourful and welcoming village ready to host you on your stay, Doolin has something for everyone."
+                       FontSize="Medium"    
+                       HorizontalOptions="CenterAndExpand"
+                       VerticalOptions="Center"/>
+                    <Label BackgroundColor="Gold" Text="Doolin is the home of traditional Irish music, with plenty of song and craic to be had every night. You can take a clifftop walk breathing in the crisp, salty Atlantic air while appreciating the beautiful wildflowers, explore the rugged landscape or go on an Atlantic cruise to appreciate the unique coastline from a different perspective. Adventure is waiting for you in Doolin! "
+                       FontSize="Medium"    
+                       HorizontalOptions="CenterAndExpand"
+                       VerticalOptions="Center"/>
+                    <Label  BackgroundColor="Gold"  Text="Doolin is a vibrant place full of characters, stories and experiences and is home to some of the region's best accommodation, eateries and beautiful local shops. The people of Doolin are passionate about their community and look forward to welcoming you with open arms."
+                       FontSize="Medium"    
+                       HorizontalOptions="CenterAndExpand"
+                       VerticalOptions="Center"/>
+                    <Label BackgroundColor="Gold" Text="What better way to spend a day in Doolin, than on a day trip to the Aran Islands. Okay, maybe a boat trip AND a cruise to the Cliffs of Moher would top that… well then, you should contact Doolin2Aran Ferries, they have the cheapest rates as well as the most comfortable experience in Doolin and you're almost guarenteed a great day out, no matter how old you are. Telephone: +353 65 707 5949, Mobile: +353 87 245 3239, e-mail: info@doolin2aranferries.com"
+                           FontSize="Medium"
+                           HorizontalOptions="Start"
+                           VerticalOptions="Center"/>
+                    <Image x:Name="doolinLarge1" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+                    <Image x:Name="doolinLarge2" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
