@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ClareTourismApp.LahinchInfo">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout BackgroundColor="DodgerBlue">
+                <StackLayout Orientation="Horizontal"
+                     HorizontalOptions="Center"
+                     VerticalOptions="Center">
+                    <Image x:Name="lahinchInfo1" HorizontalOptions="Center" VerticalOptions="Start"/>
+                    <Image x:Name="lahinchInfo2" HorizontalOptions="Center" VerticalOptions="Center"/>
+                    <Image x:Name="lahinchInfo3" HorizontalOptions="Center" VerticalOptions="End"/>
+                </StackLayout>
+                <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                    <Label Text="Information About Lahinch" Font="Bold, Large" HorizontalOptions="Center" Margin="2,1,2,1"/>
+                </StackLayout>
+                <StackLayout HorizontalOptions="Start" VerticalOptions="Center">
+                    <Label BackgroundColor="Gold" Text="Lahinch is a small, welcoming and truly lively holiday resort with an atmosphere and energy that's all its own. It nestles at the head of Liscannor Bay, beside a 2 km long beach of golden sands. The shape of the resort creates Atlantic breakers that attract surfing and canoeing enthusiasts from all over the world. "
+                       FontSize="Medium"    
+                       HorizontalOptions="CenterAndExpand"
+                       VerticalOptions="Center"/>
+                    <Label  BackgroundColor="Gold"  Text="Lahinch has earned a reputation as a top 'surf centre' – with surf schools, social life and great atmosphere to boot. It's also great for lovers of other water sports too: sailing, swimming, kite surfing, skin-diving, deep-sea and fresh water fishing are also popular here."
+                       FontSize="Medium"    
+                       HorizontalOptions="CenterAndExpand"
+                       VerticalOptions="Center"/>
+                    <Label BackgroundColor="Gold" Text="Lahinch is home to a fantastic playground and this is an ideal place to take children. The playground is located right next to the beach which is the longest and probabaly the nicest beach in West Clare. A perfect day out with superb resturaunts and ice cream parlors serving nearby. Weather dependant... "
+                       FontSize="Medium"    
+                       HorizontalOptions="CenterAndExpand"
+                       VerticalOptions="Center"/>
+                    <Image x:Name="lahinchInfoLarge" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" />
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

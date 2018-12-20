@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace ClareTourismApp
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class Lahinch : TabbedPage
+	public partial class LahinchGolfClub : ContentPage
 	{
-		public Lahinch ()
+		public LahinchGolfClub ()
 		{
 			InitializeComponent ();
 		}

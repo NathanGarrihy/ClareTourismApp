@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ClareTourismApp.LahinchGolfClub">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout BackgroundColor="DarkBlue">
+                <StackLayout Orientation="Horizontal"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center">
+                    <Image x:Name="lahinchGCsmall1" HorizontalOptions="Center" VerticalOptions="Start"/>
+                    <Image x:Name="lahinchGCsmall2" HorizontalOptions="Center" VerticalOptions="Center"/>
+                    <Image x:Name="lahinchGCsmall3" HorizontalOptions="Center" VerticalOptions="End"/>
+                </StackLayout>
+                <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                    <Label Text="Lahinch Golf Club" Font="Bold, Large" HorizontalOptions="Center" Margin="2,1,2,1"/>
+                </StackLayout>
+                <StackLayout HorizontalOptions="Start" VerticalOptions="Center">
+                    <Label BackgroundColor="Yellow" Text="It has been described as 'The St Andrews of Ireland' and many other complimentary titles. Those who know and love the place firmly believe that Lahinch Golf Club doesn't need comparison with any of the game's other world class venues. From the infant days back in 1892 up to its 125th anniversary, the Club has stood out on its own merits as a golfing institution like none other."
+                       FontSize="Medium"  
+                       HorizontalOptions="CenterAndExpand"
+                       VerticalOptions="Center"/>
+                    <Label BackgroundColor="Yellow" Text="Lahinch Golf Club is renowned for the way the links has retained all of its old virtues. It has benefited from the willingness, over the decades, to move with the times and is now regarded as one of the best and most enjoyable challenges to be found anywhere in the golfing world. The legendary Old Tom Morris set the highest standards for the course from the outset. He was followed by equally celebrated architects Charles 'Mo' Gibson and Dr Alister MacKenzie. In more recent times, the expertise of Dr Martin Hawtree ensures its place in the higher echelons of all golf rankings." 
+                       FontSize="Medium"    
+                       HorizontalOptions="CenterAndExpand"
+                       VerticalOptions="Center"/>
+                    <Label  BackgroundColor="Yellow"  Text="The coarse is long, stretching to 6600 yards from the men's tee's, the terrain of Lahinch is full of dunes, will most of the hills steeper then most other coarses, which is one of the many unique factors that makes Lahinch so challenging for visitors. Some of the professional golfers who have palyed at Lahinch Golf Club include Paul McGinely, Phil Mickelson, Padraig Harrington, Jim Furyk, Graeme McDowell, Bubba Watson and many more! "
+                       FontSize="Medium"    
+                       HorizontalOptions="CenterAndExpand"
+                       VerticalOptions="Center"/>
+                   
+                    <Image x:Name="lahinchGCLarge1" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+                    <Image x:Name="lahinchGCLarge2" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+                    <Image x:Name="lahinchGCLarge3" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+                    <Image x:Name="lahinchGCLarge4" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+                    
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
