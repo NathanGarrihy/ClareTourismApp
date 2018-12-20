@@ -3,10 +3,38 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ClareTourismApp.Bunratty">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <ScrollView>
+            <StackLayout BackgroundColor="DodgerBlue">
+                <StackLayout Orientation="Horizontal"
+                     HorizontalOptions="Center"
+                     VerticalOptions="Center">
+                    <Image x:Name="bunrattyCastle1" HorizontalOptions="Center" VerticalOptions="Start"/>
+                    <Image x:Name="bunrattyCastle2" HorizontalOptions="Center" VerticalOptions="Center"/>
+                    <Image x:Name="bunrattyCastle3" HorizontalOptions="Center" VerticalOptions="End"/>
+                </StackLayout>
+                <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                    <Label Text="Bunratty Castle" Font="Bold, Large" HorizontalOptions="Center" Margin="2,1,2,1"/>
+                </StackLayout>
+                <StackLayout HorizontalOptions="Start" VerticalOptions="Center">
+                    <Label BackgroundColor="Gold" Text="Irelands iconic Bunratty Castle is a must on your itinerary to Ireland.  Named after the river Raite which runs alongside this strategic battlement.  The spot on which this castle stands has been occupied for over 1000 years. From the Vikings to the Normans, great Irish Earls and noble Lords and Ladies. Graciously restored in the 1960's and furnished by Lord Gorts magnificent collection of medieval furniture and furnishings, this is your chance to experience a window on Ireland's past and explore the acclaimed 15th century Bunratty Castle."
+                       FontSize="Medium"    
+                       HorizontalOptions="CenterAndExpand"
+                       VerticalOptions="Center"/>
+                    <Label  BackgroundColor="Gold"  Text="Robert De Muscegros, a Norman, built the first defensive fortress (an earthen mound with a strong wooden tower on top) in 1250. His lands were later granted to Thomas De Clare who built the first stone castle on the site. About this time Bunratty became a large town of 1,000 inhabitants."
+                       FontSize="Medium"    
+                       HorizontalOptions="CenterAndExpand"
+                       VerticalOptions="Center"/>
+                    <Label BackgroundColor="Gold" Text="'When you visit Bunratty's 19th Century Folk Park you experience a living reconstruction of the homes and environment of Ireland of over a century ago.'- Set on 26 acres, the impressive park features over 30 buildings in a 'living' village and rural setting. Rural farmhouses, village shops and streets are recreated and furnished as they would have appeared at that time according to their social standing, from the poorest one roomed dwelling to Bunratty House a fine example of a Georgian residence for the gentry built 1804 home of the Studdarts, the last family to occupy Bunratty Castle."
+                       FontSize="Medium"    
+                       HorizontalOptions="CenterAndExpand"
+                       VerticalOptions="Center"/>
+                    <Label BackgroundColor="Gold" Text="The village houses and shops in the Folk Park have been chosen from many different areas, to form a collection of typical 19th century urban Irish buildings including the School, Doctor's house, Pawnbrokers, Pub, Drapery, Printworks, Grocery, Hardware shop, Pottery and a Post Office."
+                       FontSize="Medium"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Center"/>
+                    <Image x:Name="bunrattyCastleLarge" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" />
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

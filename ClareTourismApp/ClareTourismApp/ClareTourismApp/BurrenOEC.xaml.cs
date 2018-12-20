@@ -20,7 +20,7 @@ namespace ClareTourismApp
 
         private void SetUpImagesOnPage()
         {
-            var assembly = typeof(CliffsOhMoherVistorCenter);
+            var assembly = typeof(BurrenOEC);
 
             string OECBurren1 = "ClareTourismApp.Assets.Images.burrenOEC1.jpg";
             burrenOEC1.Source = ImageSource.FromResource(OECBurren1, assembly);

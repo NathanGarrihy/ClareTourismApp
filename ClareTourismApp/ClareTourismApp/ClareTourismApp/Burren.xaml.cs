@@ -15,6 +15,7 @@ namespace ClareTourismApp
 		public Burren ()
 		{
 			InitializeComponent ();
-		}
-	}
+        }
+    }
+
 }

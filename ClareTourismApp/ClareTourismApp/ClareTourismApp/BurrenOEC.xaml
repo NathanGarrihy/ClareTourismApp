@@ -24,9 +24,7 @@
                        FontSize="Medium"    
                        HorizontalOptions="CenterAndExpand"
                        VerticalOptions="Center"/>
-                    <Label  BackgroundColor="Yellow"  Text="The unique rocky limestone landscape and location of the Burren makes it the perfect venue for a wide range of adventure activities.
-
-Over ground the karst landscape offers a selection of hillwalks from gentle strolls to more strenuous hikes over the bare rocky summits with spectacular views; the centre also offers Orienteering as a fun introduction to maps and navigation. The Burren's limestone crags are one of the most popular climbing areas in Ireland with a range of locations to choose from that will suit any ability level."
+                    <Label  BackgroundColor="Yellow"  Text="The unique rocky limestone landscape and location of the Burren makes it the perfect venue for a wide range of adventure activities. Over ground the karst landscape offers a selection of hillwalks from gentle strolls to more strenuous hikes over the bare rocky summits with spectacular views; the centre also offers Orienteering as a fun introduction to maps and navigation. The Burren's limestone crags are one of the most popular climbing areas in Ireland with a range of locations to choose from that will suit any ability level."
                        FontSize="Medium"    
                        HorizontalOptions="CenterAndExpand"
                        VerticalOptions="Center"/>
@@ -34,7 +32,7 @@ Over ground the karst landscape offers a selection of hillwalks from gentle stro
                        FontSize="Medium"
                        HorizontalOptions="Start"
                        VerticalOptions="Center"/>
-                    <Label BackgroundColor="Yellow" Text="To get in touch with the burren outdoor education & training centre you can call them Telephone: 0657078066, Mobile: 0877414822. You can also e-mail them: burrenoec@icetb.ie. Their office hours are 9am to 5pm with Lunch between 1pm and 2pm."
+                    <Label BackgroundColor="Yellow" Text="To get in touch with the burren outdoor education and training centre you can call them Telephone: 0657078066, Mobile: 0877414822. You can also e-mail them: burrenoec@icetb.ie. Their office hours are 9am to 5pm with Lunch between 1pm and 2pm."
                            FontSize="Medium" 
                            HorizontalOptions="Start"
                            VerticalOptions="Center"/>
