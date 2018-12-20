@@ -7,7 +7,7 @@
         <StackLayout BackgroundColor="DodgerBlue">
             <Image x:Name="clareFlag" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"/>
             <StackLayout>
-            <Label Text="-Clare Tourism App-" Font="50"
+            <Label Text="-Clare Tourism-" Font="50"
                BackgroundColor="Yellow" FontAttributes="Bold"
                TextColor="Blue" VerticalOptions="Start"
                HorizontalOptions="Center" />

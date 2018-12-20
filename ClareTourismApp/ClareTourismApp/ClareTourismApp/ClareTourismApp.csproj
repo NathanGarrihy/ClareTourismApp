@@ -30,7 +30,9 @@
     <None Remove="Assets\Images\craggaunowen1.jpg" />
     <None Remove="Assets\Images\doolin1.jpg" />
     <None Remove="Assets\Images\lahinch1.jpg" />
+    <None Remove="Assets\Images\LargeCliffs.jpg" />
     <None Remove="Assets\Images\mapIcon.png" />
+    <None Remove="Assets\Images\visitorCenter.jpg" />
   </ItemGroup>
 
   <ItemGroup>
@@ -56,7 +58,9 @@
     <EmbeddedResource Include="Assets\Images\craggaunowen1.jpg" />
     <EmbeddedResource Include="Assets\Images\doolin1.jpg" />
     <EmbeddedResource Include="Assets\Images\lahinch1.jpg" />
+    <EmbeddedResource Include="Assets\Images\LargeCliffs.jpg" />
     <EmbeddedResource Include="Assets\Images\mapIcon.png" />
+    <EmbeddedResource Include="Assets\Images\visitorCenter.jpg" />
   </ItemGroup>
 
   <ItemGroup>

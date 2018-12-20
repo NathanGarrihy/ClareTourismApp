@@ -28,12 +28,13 @@
                        FontSize="Medium"    
                        HorizontalOptions="CenterAndExpand"
                        VerticalOptions="Center"/>
-                <Label BackgroundColor="Gold" Text="You can find accomidation nearby at Liscannor (6km south) and Doolin (7km north)."
+                    <Label BackgroundColor="Gold" Text="You can find accomidation nearby at Liscannor (6km south) and Doolin (7km north)."
                        FontSize="Medium"
                        HorizontalOptions="Start"
                        VerticalOptions="Center"/>
-          
-            </StackLayout>
+                  
+                    <Image x:Name="cliffsLarge" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+                </StackLayout>
         </StackLayout>
         </ScrollView>
     </ContentPage.Content>

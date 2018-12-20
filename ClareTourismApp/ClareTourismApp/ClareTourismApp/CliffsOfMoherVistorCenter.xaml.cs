@@ -30,6 +30,10 @@ namespace ClareTourismApp
 
             string Vcliffs3 = "ClareTourismApp.Assets.Images.cliffsVisitor3.jpg";
             cliffsV3.Source = ImageSource.FromResource(Vcliffs3, assembly);
+
+            string largeVisitor = "ClareTourismApp.Assets.Images.visitorCenter.jpg";
+            visitorCenter.Source = ImageSource.FromResource(largeVisitor, assembly);
+
         }
     }
 }

@@ -29,6 +29,10 @@ namespace ClareTourismApp
 
             string cliffspic3 = "ClareTourismApp.Assets.Images.cliffsInfo3.jpg";
             cliffs3.Source = ImageSource.FromResource(cliffspic3, assembly);
+            
+            string largeCliffs = "ClareTourismApp.Assets.Images.LargeCliffs.jpg";
+            cliffsLarge.Source = ImageSource.FromResource(largeCliffs, assembly);
+
         }
 	}
 }
